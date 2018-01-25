@@ -1,5 +1,3 @@
-# final-project-aayush-baral-db
-final-project-aayush-baral-db created by GitHub Classroom
 
 # Twitter Sentiment Analysis on cryptocurrencies
 Extracting recent tweets on cryptocurrencies and displaying the text, location and sentiment of the tweets.
