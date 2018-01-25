@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sentiment on Cryptocurrencies</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet" integrity="sha384-awusxf8AUojygHf2+joICySzB780jVvQaVCAt1clU3QsyAitLGul28Qxb2r1e5g+" crossorigin="anonymous">
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+</head>
+<body>
+	<div class='container-fluid'>
+		<div class='text-center'>
+			<h2>Sentiment on cryptocurrencies</h2>
+
+			<p>
+
+	<form method="post" action = "/cryptosentiment/search">
+		Cryptocurrency: 
+		<select name = "type">
+			<option value="bitcoin">bitcoin</option>
+			<option value="ethereum">ethereum</option>
+			<option value="litecoin">litecoin</option>
+		</select>
+		<input type="submit" value="Submit">
+			
+			
+		<footer class="text-center">
+			Made with ❤ | <a href="https://github.com/aayushbaral">Github</a> | <a href="http://aayushbaral.com">Aayush Baral</a>
+		</footer>	</div>
+	

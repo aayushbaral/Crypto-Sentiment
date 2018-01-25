@@ -1,0 +1,24 @@
+$def with (details)
+
+<html>
+
+<head><title> Details</title></head>
+<body>
+	<ul>
+		$for i in details:
+		<li>
+			<br>
+			$if i["polarity"]>0:
+				<b>Tweet:</b><i>$i["text"]</i>, <b>Sentiment:</b> Positive. <b>Location:</b> $i["location"]
+			$if i["polarity"] < 0:
+				<b>Tweet:</b><em>$i["text"]</em>, <b>Sentiment:</b> Negative, <b>Location:</b> $i["location"]
+			$if i["polarity"] == 0:
+				<b>Tweet:</b>$i["text"], <b>Sentiment:</b> Neutral, <b>Location:</b> $i["location"]
+				
+</li>
+		
+		
+		
+</ul>
+</body>
+</html>
